@@ -1,0 +1,30 @@
+@include components.hl
+
+@page About — Kitchen Rave
+
+@header
+
+@column [font Noto, color white, width fill, max-width 600, center-x, padding-top 32, spacing 32] 
+    @el []
+        @paragraph 
+            Kitchen Rave начался как спонтанное собрание в 2024 году, изначально проходившее буквально на кухне. С самого начала коллектив сосредоточился на хард-техно, сформировав чёткую и узнаваемую музыкальную идентичность.
+
+        @paragraph
+            По мере быстрого роста интереса проект начал расширяться. В декабре 2025 года Kitchen Rave открылся для более широкой аудитории, проведя мероприятие в DEX.
+
+        @paragraph
+            В своей основе Kitchen Rave опирается на чёткую идею: объединение единомышленников для обсуждения, обмена и совместного создания музыки. Участие всегда оставалось выборочным -гости тщательно отбирались, чтобы сохранить сильное чувство сообщества.
+
+        @paragraph
+            Для сохранения этой эксклюзивности на ряде мероприятий действовал строгий фейс-контроль, что позволяло поддерживать атмосферу, соответствующую изначальному видению проекта.
+    
+    @el []
+        @paragraph
+            Kitchen Rave began as an impromptu gathering in 2024, originally taking place in an actual kitchen. From the start, the collective focused on hard techno, shaping a distinct musical identity. As interest quickly grew, the project expanded. In December 2025, Kitchen Rave opened its doors to a broader audience by hosting an event at DEX.
+
+        @paragraph
+            At its core, Kitchen Rave is built around a clear ideology: bringing together like-minded individuals to discuss, share, and play music. Participation has always been selective, with attendees carefully chosen to maintain a strong sense of community.
+
+        @paragraph
+            To preserve this exclusivity, several events were held with strict face control policies, ensuring that the atmosphere remained true to the project’s original vision.
+

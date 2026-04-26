@@ -1,0 +1,29 @@
+@let red #E42222
+
+@style                                                                                                                                                                                            
+    html { font-family: Noto; }
+    body { background: black; margin: 0; }
+
+@font-face Noto /fonts/NotoSans.ttf
+@font-face LeagueSpartan /fonts/LeagueSpartan.ttf
+@font-face Sanchez /fonts/Sanchez.ttf
+
+@let heading $text
+    @el [width fill, center, text-align center, color $red, size 48, font LeagueSpartan, font-weight bold]
+        $text
+@let heading-2 $text
+    @el [width fill, center, text-align center, color $red, size 36, font LeagueSpartan, font-weight bold]
+        $text
+
+@let heading-3 $text
+    @el [width fill, center, text-align center, color $red, size 30, font LeagueSpartan, font-weight bold, spacing 0]
+        $text
+
+@let header
+    @link /
+        @column [width fill, padding-y 48]
+            @column [width fill, spacing 8]
+                @heading [text Kitchen Rave]
+                @row [center-x, font Sanchez, font-weight bold, spacing 16]
+                    @each name, path in Podcasts /podcasts.html, Events /, About /about.html
+                        @link [color $red, underline] $path $name      

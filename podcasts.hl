@@ -1,0 +1,20 @@
+@include components.hl
+
+@page Podcasts — Kitchen Rave
+
+@header
+
+@let set $name $url
+    @column [spacing 8]
+        @heading-3 [text $name]
+        @audio [controls, center-x, width fill] $url
+
+@column [width fill, max-width 600, center-x, padding-top 32]
+    @column []
+        @column [spacing 24]
+            @heading-2 [text KR#013]
+
+            @set [name Bats, url https://dfc1798d-95f4-435a-8254-0acb79890a38.selstorage.ru/kr013/kr013-bats.mp3]
+            @set [name Zaur Gapienko, url https://dfc1798d-95f4-435a-8254-0acb79890a38.selstorage.ru/kr013/kr013-zaur-gapienko.mp3]
+            @set [name Trust True, url https://dfc1798d-95f4-435a-8254-0acb79890a38.selstorage.ru/kr013/kr013-trust-true.mp3]
+

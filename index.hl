@@ -1,0 +1,37 @@
+@import components.hl
+
+@page Kitchen Rave
+
+@column [spacing 24, align-items center, font Noto, color white]
+    @video [autoplay, height 100vh, muted, loop, width 100%, object-fit cover, object-position center] https://dfc1798d-95f4-435a-8254-0acb79890a38.selstorage.ru/hero.mp4
+
+    @el [width fill, max-width 600]
+        @header
+    @column [margin 8, max-width 600, spacing 32] 
+        @column [spacing 16]
+            @image [max-width 400, center-x] https://dfc1798d-95f4-435a-8254-0acb79890a38.selstorage.ru/konclave.jpeg
+            @link [text-align center, color $red, size 20, font Noto, underline] https://flat.audio/e/2054 Купить билет
+        
+        @el [spacing 8, max-width 600]
+            @paragraph
+                16 мая — второй техно-фестиваль андеграунд культуры. Три сцены, коллаборация пяти комьюнити: DEKADANCE, SYNESTHESIA, KITCHEN RAVE, DARK BLOOM, VOLCHOK
+        
+            @paragraph 
+                Фестиваль откроет иммерсивная постановка ‘КАК ВО СНЕ’. Пластический эксперимент от «Синестезии» погрузит в мир образов, рожденных в глубинах подсознания
+
+            @paragraph [bold]
+                МЕДИУМ
+            @paragraph
+                Противостояние любимых диджеев в f2f формате: Katsura vs Volchiy Voy, Alex Pankov vs Fractoon, Horny vs Gutkein… горячо
+            @paragraph
+                Также AganPunk vs Replicant, Bloodfire vs Bats, Cekta vs Wilter, Мoyva vs Xton
+
+            @paragraph [bold]
+                АНДЕР
+            @paragraph
+                Первая половина ночи отдана Dekadance. Долгожданное b2b Denis Kudla и Dan Kornienko c hypnotic techno звучанием, затем Lavia и Stepan Borin. Shinovich разгонит сцену хардовым звучанием. Имена говорят за себя: Aysma Rebriсk, t_error 404, Ila, ANTON+MATZKAIM, O’kstaty
+
+            @paragraph [bold]
+                МЕЛОМАН
+            @paragraph 
+                Диалог Volchok и Dark Bloom. Взаимодействие аутентичного экспериментала, грязного raw/dark/hypnotic/hardcore techno с индустриальным ebm и меланхоличным dark wave. В лайнапе Lera Foer, Vasilii Volchok, Opustoshil, Evidance, Sem Smirnov, Peach Touch, vova b2b Helga Zeit, Maria Berlinskaya, Altruck, ApollorushA
