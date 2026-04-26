@@ -1,0 +1,39 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      S3_BUCKET: dfc1798d-95f4-435a-8254-0acb79890a38
+      S3_ENDPOINT: https://s3.storage.selcloud.ru
+      AWS_ACCESS_KEY_ID: ${{ secrets.S3_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: ru-1
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install htmlang
+        run: |
+          curl -fsSL -o /usr/local/bin/htmlang \
+            https://github.com/ilyakooo0/htmlang/releases/latest/download/htmlang-linux-x86_64
+          chmod +x /usr/local/bin/htmlang
+
+      - name: Build
+        run: htmlang build
+
+      - name: Upload to S3
+        run: |
+          aws s3 sync out/ "s3://${S3_BUCKET}/" \
+            --endpoint-url "$S3_ENDPOINT" \
+            --delete \
+            --exclude "*.map"
+          aws s3 sync fonts/ "s3://${S3_BUCKET}/fonts/" \
+            --endpoint-url "$S3_ENDPOINT"
