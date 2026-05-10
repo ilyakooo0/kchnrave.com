@@ -1,0 +1,63 @@
+{
+	"version": "https://jsonfeed.org/version/1",
+	"title": "Kitchen Rave",
+	"icon": "https://micro.blog/kchnrave/avatar.jpg",
+	"home_page_url": "https://kchnrave.com/",
+	"feed_url": "https://kchnrave.com/feed.json",
+	"items": [
+		
+			{
+				"id": "http://kchnrave.micro.blog/2026/04/20/zaur-gapienko-kr-under/",
+				"title": "zaur gapienko KR#013 under",
+				"content_html": "<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
+				"content_text": "<audio controls=\"controls\" src=\"https://kchnrave.com/uploads/2026/zaur-gapienko-kr013-under.mp3\" preload=\"metadata\"></audio>\n",
+				"date_published": "2026-04-20T23:06:04+03:00",
+				"url": "https://kchnrave.com/2026/04/20/zaur-gapienko-kr-under/",
+				"tags": ["KR013"]
+			},
+			{
+				"id": "http://kchnrave.micro.blog/2026/03/08/replicant-kr-under/",
+				"title": "replicant KR#013 under",
+				"content_html": "<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
+				"content_text": "<audio controls=\"controls\" src=\"https://kchnrave.com/uploads/2026/replicant-kr013-under.mp3\" preload=\"metadata\"></audio>\n",
+				"date_published": "2026-03-08T21:02:01+03:00",
+				"url": "https://kchnrave.com/2026/03/08/replicant-kr-under/",
+				"tags": ["KR013"]
+			},
+			{
+				"id": "http://kchnrave.micro.blog/2026/02/27/kitchen-rave-bats/",
+				"title": "bats KR#013 under",
+				"content_html": "<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
+				"content_text": "<audio controls=\"controls\" src=\"https://kchnrave.com/uploads/2026/bats-kr013.mp3\" preload=\"metadata\"></audio>\n",
+				"date_published": "2026-02-27T03:26:57+03:00",
+				"url": "https://kchnrave.com/2026/02/27/kitchen-rave-bats/",
+				"tags": ["KR013"]
+			},
+			{
+				"id": "http://kchnrave.micro.blog/2026/02/27/kitchen-rave-aftermovie-by-dmalyy/",
+				"title": "Kitchen Rave 13",
+				"content_html": "<p>Aftermovie by <a href=\"https://t.me/malyy_danii\">DMalyy</a></p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
+				"content_text": "Aftermovie by [DMalyy](https://t.me/malyy_danii)\n\n<video controls=\"controls\" playsinline=\"playsinline\" preload=\"none\" width=\"1280\" height=\"720\" poster=\"https://eu.uploads.micro.blog/300270/2026/frames/1688503-0-5e7823.jpg\" src=\"https://cdn.uploads.micro.mov/300270/2026/2026-02-26-04.47.15/playlist.m3u8\"></video>\n",
+				"date_published": "2026-02-27T03:09:47+03:00",
+				"url": "https://kchnrave.com/2026/02/27/kitchen-rave-aftermovie-by-dmalyy/",
+				"tags": ["KR013"]
+			},
+			{
+				"id": "http://kchnrave.micro.blog/2026/02/27/kitchen-rave-dekadance-kitchen-rave/",
+				"title": "Kitchen Rave 13",
+				"content_html": "<h2 id=\"dekadance--kitchen-rave\">Dekadance × Kitchen Rave</h2>\n<!-- raw HTML omitted -->\n",
+				"content_text": "## Dekadance × Kitchen Rave\n\n<img src=\"uploads/2026/13.jpg\">\n",
+				"date_published": "2026-02-27T03:06:16+03:00",
+				"url": "https://kchnrave.com/2026/02/27/kitchen-rave-dekadance-kitchen-rave/",
+				"tags": ["KR013"]
+			},
+			{
+				"id": "http://kchnrave.micro.blog/2026/02/27/kitchen-rave/",
+				"title": "Kitchen Rave 11",
+				"content_html": "<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
+				"content_text": "<img src=\"uploads/2026/1.jpg\"><img src=\"uploads/2026/2.jpg\"><img src=\"uploads/2026/3.jpg\"><img src=\"uploads/2026/4.jpg\"><img src=\"uploads/2026/5.jpg\"><img src=\"uploads/2026/6.jpg\"><img src=\"uploads/2026/7.jpg\">\n",
+				"date_published": "2026-02-27T03:03:03+03:00",
+				"url": "https://kchnrave.com/2026/02/27/kitchen-rave/"
+			}
+	]
+}
